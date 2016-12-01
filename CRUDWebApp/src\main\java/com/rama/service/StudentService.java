@@ -1,11 +1,10 @@
-package com.rama.dao;
+package com.rama.service;
 
 import antlr.collections.List;
 
 import com.rama.model.Student;
 
-
-public interface StudentDAO {
+public interface StudentService {
 
 	public void add(Student student);
 	

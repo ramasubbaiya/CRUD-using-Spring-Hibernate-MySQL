@@ -9,8 +9,11 @@ public class Student {
 	@Column
 	@GeneratedValue(strategy=GenerationType.AUTO)
 	private int StudentId;
+	@Column
 	private String firstname;
+	@Column
 	private String lastname;
+	@Column
 	private int yearLevel;
 
 	public Student() {
