@@ -1,6 +1,13 @@
 package com.rama.model;
 
+import javax.persistence.Entity;
+import javax.persistence.*;
+
+@Entity
 public class Student {
+	@Id
+	@Column
+	@GeneratedValue(strategy=GenerationType.AUTO)
 	private int StudentId;
 	private String firstname;
 	private String lastname;
